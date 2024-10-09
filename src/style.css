@@ -1,0 +1,40 @@
+:root {
+  --accent-color: #a9d49f;
+  --secondary-color: #272142;
+  --primary-font-family: "Jost", sans-serif;
+  --secondary-font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: var(--primary-font-family);
+}
+
+.hero {
+  text-align: center;
+  background-color: rgba(60, 85, 51, 0.05);
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  font-family: var(--secondary-font-family);
+}
+
+.hero h2 {
+  line-height: 2;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--secondary-font-family);
+  color: var(--primary-font-family);
+}
+
+.btn-start {
+  background-color: var(--accent-color);
+  color: white;
+  font-family: var(--secondary-font-family);
+  padding: 10px 25px;
+  line-height: 25px;
+}
