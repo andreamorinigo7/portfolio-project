@@ -55,15 +55,15 @@ h1 {
   padding: 120px 60px;
 }
 
-.about-description {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-description h2 {
+.content-container h2 {
   line-height: 1.4;
 }
 
-.about-details {
+.content {
   margin: 30px;
 }
 
@@ -81,11 +81,11 @@ h1 {
   h1 {
     line-height: 1;
   }
-  .about-details {
+  .content {
     text-align: center;
     padding: 0;
   }
-  .about-details h1 {
+  .content h1 {
     font-size: 71px;
   }
 }
