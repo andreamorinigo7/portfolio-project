@@ -112,3 +112,20 @@ h1 {
     max-width: 1320px;
   }
 }
+
+.work-inquiry {
+  background-color: rgba(60, 85, 51, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.work-inquiry a {
+  margin-top: 15px;
+}
+
+.fa-brands {
+  background-color: rgba(60, 85, 51, 0.05);
+  padding: 20px;
+  border-radius: 100%;
+  margin: 0 20px;
+}
