@@ -72,6 +72,11 @@ h1 {
   height: 450px;
 }
 
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
 @media (max-width: 960px) {
   .project-details {
     text-align: center;
@@ -88,6 +93,18 @@ h1 {
   .content h1 {
     font-size: 71px;
   }
+  .content h1 {
+    text-align: left;
+    font-size: 45px;
+  }
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--secondary-font-family);
+}
+.content p {
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
 }
 
 @media (min-width: 1400px) {
