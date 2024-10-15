@@ -144,6 +144,10 @@ h1 {
   font-size: 40px;
 }
 
+.contact-description {
+  padding: 0 200px 40px;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -172,6 +176,15 @@ nav li.active a {
 footer {
   margin: 120px 0;
   text-align: center;
+}
+
+.content a img {
+  transition: all 200ms ease-in;
+}
+
+.content a img:hover {
+  transform: scale(0.9);
+  opacity: 0.9;
 }
 
 @media (max-width: 960px) {
@@ -213,6 +226,9 @@ footer {
   }
   .logo {
     font-size: 30px;
+  }
+  .contact-description {
+    padding: 0;
   }
 }
 
