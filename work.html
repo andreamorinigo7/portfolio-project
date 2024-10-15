@@ -31,15 +31,35 @@
       src="https://kit.fontawesome.com/979c957ba9.js"
       crossorigin="anonymous"
     ></script>
+    <meta
+      name="description"
+      content="Explore Andrea Morinigo's portfolio of web development projects, featuring responsive websites, weather apps, world clocks, calculators, and more. See how I apply my skills in HTML, CSS, and JavaScript to create dynamic, user-friendly web applications."
+    />
     <title>Projects | Andrea Morinigo</title>
   </head>
   <body>
+    <div class="container container-header m-1">
+      <nav class="d-flex justify-content-between">
+        <div class="logo"><a href="/">AEMA</a></div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="content">
         <h1 class="mt-5 mb-5">Take a look at what I have been working on</h1>
         <div class="row mt-5">
           <div class="col-md-6 mb-4">
-            <img src="img/painting.png" alt="" class="img-fluid" />
+            <img
+              src="img/painting.png"
+              alt="Painting project preview"
+              class="img-fluid shadow rounded"
+            />
             <h3 class="text-center mt-3">Web App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, Javascript
@@ -47,7 +67,11 @@
           </div>
 
           <div class="col-md-6 mb-4">
-            <img src="img/calculator.png" alt="" class="img-fluid" />
+            <img
+              src="img/calculator.png"
+              alt="Calculator project preview"
+              class="img-fluid shadow rounded"
+            />
             <h3 class="text-center mt-3">Calculator App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and Javascript
@@ -55,7 +79,11 @@
           </div>
 
           <div class="col-md-6 mb-4">
-            <img src="img/world-clock.png" alt="" class="img-fluid" />
+            <img
+              src="img/world-clock.png"
+              alt="World Clock project preview"
+              class="img-fluid shadow rounded"
+            />
             <h3 class="text-center mt-3">World Clock App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, Javascript, and API
@@ -63,7 +91,11 @@
           </div>
 
           <div class="col-md-6 mb-4">
-            <img src="img/weather.png" alt="" class="img-fluid" />
+            <img
+              src="img/weather.png"
+              alt="Weather App project preview"
+              class="img-fluid shadow rounded"
+            />
             <h3 class="text-center mt-3">Weather App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, Javascript, and API
@@ -73,29 +105,54 @@
       </div>
     </div>
     <footer>
-      <div class="work-inquiry d-flex justify-content-between">
-        <div>
-          <h2>Work Inquiry</h2>
-          <small class="text-muted">Let's work together!</small>
+      <div class="inquiry-box">
+        <div class="work-inquiry justify-content-between d-none d-md-flex">
+          <div>
+            <h2>Work Inquiry</h2>
+            <small class="text-muted">Let's work together!</small>
+          </div>
+          <div>
+            <a
+              href="mailto:morinigoandrea7@gmail.com"
+              title="Email button"
+              class="btn btn-start"
+              >Let's talk here</a
+            >
+          </div>
         </div>
-        <div>
-          <a href="mailto:morinigoandrea7@gmail.com" class="btn btn-start"
-            >Let's talk here</a
-          >
-        </div>
-      </div>
-      <p class="text-center p-5 email-link">morinigoandrea7@gmail.com</p>
 
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://www.instagram.com/andreaemorinigo/" target="_blank"
-          ><i class="fa-brands fa-instagram fa-2xl"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/andreamorinigo/" target="_blank">
-          <i class="fa-brands fa-linkedin fa-2xl"></i
-        ></a>
-        <a href="https://www.github.com/andreamorinigo7/" target="_blank">
-          <i class="fa-brands fa-github fa-2xl"></i
-        ></a>
+        <div class="d-flex justify-content-center mb-5 mt-5">
+          <a
+            href="mailto:morinigoandrea7@gmail.com"
+            title="Email button"
+            class="email-link"
+          >
+            morinigoandrea7@gmail.com
+          </a>
+        </div>
+
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/andreaemorinigo/"
+            title="Instagram button"
+            target="_blank"
+            ><i class="fa-brands fa-instagram fa-2xl"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/andreamorinigo/"
+            title="Linkedin button"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin fa-2xl"></i
+          ></a>
+          <a
+            href="https://www.github.com/andreamorinigo7/"
+            title="Github button"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github fa-2xl"></i
+          ></a>
+        </div>
       </div>
     </footer>
   </body>
