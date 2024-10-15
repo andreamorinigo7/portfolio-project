@@ -41,6 +41,7 @@ h1 {
 
 .container {
   margin-top: 120px;
+  max-width: 100%;
 }
 
 .btn-branding {
@@ -128,4 +129,33 @@ h1 {
   padding: 20px;
   border-radius: 100%;
   margin: 0 20px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+  line-height: 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--accent-color);
+}
+
+.container-header {
+  max-width: 100% !important;
 }
