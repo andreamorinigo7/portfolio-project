@@ -57,12 +57,22 @@ h1 {
   color: var(--secondary-color);
 }
 
-.btn-start {
+.btn-branding {
   background-color: var(--accent-color);
   color: white;
   font-family: var(--secondary-font-family);
   padding: 10px 25px;
   line-height: 25px;
+}
+
+.btn-branding:hover {
+  color: var(--accent-color);
+  border: 1.5px solid var(--accent-color);
+}
+
+.btn-branding-outline:hover {
+  color: white;
+  background-color: var(--accent-color);
 }
 
 .container {
@@ -182,9 +192,20 @@ footer {
   transition: all 200ms ease-in;
 }
 
+.content p a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
 .content a img:hover {
   transform: scale(0.9);
   opacity: 0.9;
+}
+
+.rotate {
+  display: inline-block;
+  transform: rotate(-15deg) translateY(5px) translateX(-2px);
+  color: var(--accent-color);
 }
 
 @media (max-width: 960px) {
@@ -216,7 +237,6 @@ footer {
     display: block;
     margin: 0 auto;
   }
-
   footer {
     margin: 0;
     width: 100%;
@@ -235,5 +255,22 @@ footer {
 @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-header .logo {
+    font-size: 20px;
+  }
+
+  .container-header li {
+    font-size: 15px;
+  }
+  .head-shot {
+    height: 380px;
+    margin-bottom: 0;
+  }
+  .container {
+    padding-bottom: 30px;
   }
 }
