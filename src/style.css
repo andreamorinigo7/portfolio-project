@@ -202,6 +202,17 @@ footer {
   opacity: 0.9;
 }
 
+.work-heading {
+  font-size: 48px !important;
+}
+
+.content h4 {
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+  padding: 0 0 60px;
+  color: var(--secondary-color);
+}
+
 .rotate {
   display: inline-block;
   transform: rotate(-15deg) translateY(5px) translateX(-2px);
