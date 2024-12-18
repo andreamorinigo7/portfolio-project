@@ -346,5 +346,5 @@ footer {
 }
 
 .card:hover .card-button {
-  transform: translateY(0); /* Slide the button up */
+  transform: translateY(0); 
 }
